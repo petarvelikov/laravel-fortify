@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    /* font-size: 14px; */
+}
+
+a.nav-link {
+    font-size: 18px;
+    color: blue;
+}
+
+h1 {
+    text-align: center;
+    color: #E9541F;
+    margin-bottom: 50px;
+}
+
+.table {
+    border: 1px solid #123;
+}
+
+.table th {
+    text-align: center;
+    background-color: #FBE755;
+    padding: 5px;
+    border: 1px solid #123;
+}
+
+.table td {
+    padding: 5px;
+    border: 1px solid #123;
+}
+
+.delete-item-form {
+    display: inline-block;
+}
+
+.card-header {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+
+
+/* Menu */
+
+#menu-table th {
+    font-weight: normal;
+}
+
+.rotate-create-menu {
+    height: 150px;
+
+    padding:  5px 0;
+    line-height: 12px;
+}
+
+.rotate-create-menu > div {
+    writing-mode:vertical-rl;
+    transform: rotate(180deg);
+
+    font-size: 13px;
+}
+
+.rotate {
+    height: 150px;
+
+    padding: 8px;
+    line-height: 12px;
+}
+
+.rotate > div {
+    writing-mode:vertical-rl;
+    transform: rotate(180deg);
+
+    font-size: 15px;
+}
+
+#menu-meals-table th, #menu-meals-table td {
+    border: 1px solid black;
+    border-right: none;
+}
+
+#menu-customers-and-quantity-table th, #menu-customers-and-quantity-table td, #menu-table-edit th, #menu-table-edit td {
+    border: 1px solid black;
+}
+
+#menu-meals-table {
+    border-right: none;
+}
+
+.menu-quantity-breakfast {
+    font-size: 16px;
+}
+
+.menu-quantity-lunch {
+    font-size: 16px;
+}
+
+.menu-quantity-dinner {
+    font-size: 16px;
+}
+
+#table-menu-filter td {
+    vertical-align: middle;
+    padding: 3px;
+}
+
+/* Menu */
+
+
+
+/* Reports */
+
+#filter-table {
+    margin: 0 auto;
+}
+
+#filter-table td {
+    padding: 5px 10px;
+}
+
+/* Reports */
+
+
+
+
+/* OTHER */
+
+/* css bootstrap addons - btn-xs */
+.btn-group-xs > .btn, .btn-xs {
+  padding: .4rem .4rem;
+  font-size: .875rem;
+  line-height: .5;
+  border-radius: .2rem;
+}
